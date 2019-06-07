@@ -1,0 +1,148 @@
+body {
+    background-color: #aaa;
+    color: #777;
+}
+.container, nav {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.navbar, .section, .sidebar {
+    background: #ffffff;
+    border: 1px solid #777;
+}
+.navbar, span, ul li {
+    height: 80px;
+}
+.navbar {
+    margin-bottom: 50px;
+}
+.navbar::after {
+    content: " ";
+    float: none; 
+    clear: both;
+    display: table;
+}
+span {
+    background: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    margin-right: 
+}
+h1, h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #777;
+    font-weight: bolder;
+}
+h1 {
+    height: 50px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+h2 {
+    height: 40px;
+    font-size: 20px;
+}
+ul {
+    float: right;
+}
+ul li{
+    list-style-type:none;
+    float: left;
+    padding: 30px;
+    padding-right:0;
+    height: 50px;
+}
+.about-link, .portfolio-link, .contact-link {
+    color: #777;
+    text-decoration-line: none;
+}
+.section {
+    width: 650px;
+    margin-bottom: 50px;
+    margin-right: 40px; 
+    text-align: justify;
+    
+}
+.profile {
+    float: left;
+    width: 150px;
+    margin: 10px;
+}
+.sidebar {
+    width: 270px;
+}
+.githublogo, .linkedinlogo, .stackoverflowlogo {
+    width: 70px;
+    margin: 10px 0;
+}
+.stackoverflowlogo {
+    margin-right: 0;
+}
+.section, .sidebar {
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+label {
+    margin: 10px 0;
+}
+input {
+    box-sizing: border-box;
+    width: 610px;
+    padding: 5px;
+    margin: 5px 0px 15px 0px;
+}
+.message-input {
+    height: 150px;
+}
+#submit {
+    width: 100px;
+    padding: 10px;
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 18px;
+    border-color: #aaa;
+}
+.portfolios {
+    width: 290px;
+    height: 200px;
+    background:url(http://www.kaanzontul.com/wp-content/uploads/2015/03/bg001.jpg);
+    background-size: 290px 200px;
+    float: left;
+    margin: 10px 0;
+    box-sizing: border-box;
+    padding-top: 145px;
+}
+#portfolio-1, #portfolio-3 {
+    margin-right: 14px;
+}
+#portfolio-2, #portfolio-4 {
+    margin-left: 14px;
+}
+h3  {
+    width: 290px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-weight: bold;
+}
+footer {
+    clear: both;
+    float: none;
+    background: #444;
+    margin-top: 50px;
+    height: 80px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px;
+    border-top: 5px solid #4aaaa5;
+}
